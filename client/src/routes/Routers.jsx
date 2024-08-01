@@ -59,6 +59,12 @@ export default function Routers() {
           }
         />
         <Route
+          path="/gmail-registration"
+          element={
+            checkAuth() ? <Dashboard /> : handleUnauthenticatedRedirect()
+          }
+        />
+        <Route
           path="/tasks"
           element={
             checkAuth() ? <Dashboard /> : handleUnauthenticatedRedirect()

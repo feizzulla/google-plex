@@ -59,15 +59,27 @@ function Login({ setIsAuthenticated }) {
 
               <FormLabel>Password</FormLabel>
               <Input type="password" mb={"20px"} />
-              <MainButton mb={"10px"}>Sign In</MainButton>
-              <Link
-                href="#"
-                isExternal
-                textDecoration="underline"
-                _hover={{ textDecoration: "none" }}
-              >
-                Forgot password?
-              </Link>
+              <MainButton mb={"10px"} w="100%">
+                Sign In
+              </MainButton>
+              <Box display={"flex"} justifyContent={"space-between"}>
+                <Link
+                  href="#"
+                  isExternal
+                  textDecoration="underline"
+                  _hover={{ textDecoration: "none" }}
+                >
+                  Forgot password?
+                </Link>
+                <Link
+                  href="#"
+                  isExternal
+                  textDecoration="underline"
+                  _hover={{ textDecoration: "none" }}
+                >
+                  Registration
+                </Link>
+              </Box>
             </FormControl>
           </Box>
         </Box>

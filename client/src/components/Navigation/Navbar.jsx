@@ -16,8 +16,11 @@ export default function Navbar() {
           <Link href="/farming" color="black" fontWeight="semibold">
             Farming
           </Link>
-          <Link href="/registratin" color="black" fontWeight="semibold">
+          <Link href="/registration" color="black" fontWeight="semibold">
             Registrations
+          </Link>
+          <Link href="/whitegen" color="black" fontWeight="semibold">
+            WhiteGen
           </Link>
           <Link href="/generate" color="black" fontWeight="semibold">
             GPT
